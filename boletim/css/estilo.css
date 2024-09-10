@@ -1,0 +1,43 @@
+/* Estilos globais */
+body {
+    background-color: rgb(177, 177, 177);
+    display: grid;
+    flex-direction: column;
+    min-height: 50vh;
+    margin: 0;
+    font-family: arial, cursive;
+  }
+
+
+  .container {
+    text-align: center;
+    margin: 2px;
+  }
+
+  /* Estilos para seções */
+  .section {
+    padding: 50px;
+  }
+  
+  /* Estilos para botões */
+  button {
+    background-color: #4e4e4e;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  /* Estilos para caixas */
+  .box {
+    border: 15px solid #d40000;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  /* Estilos para a caixa especial */
+  .special {
+    background-color: #004712;
+  }
